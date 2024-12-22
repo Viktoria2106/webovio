@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+body header {
+  /*background-image: url("/src/11.jpg");*/
+  background-image: url("/assets/Slider.png");
+  background-size: cover;
+  height: 100vh;
+}
+body header .menu {
+  display: flex;
+  justify-content: space-between;
+  width: 1111px;
+  height: 43px;
+  margin: auto auto;
+}
+body header .menu .dropdown {
+  position: relative;
+  display: inline-block;
+}
+body header .menu .dropdown button {
+  background-color: transparent;
+  border: none;
+}
+body header .menu .dropdown .information {
+  display: none;
+  position: absolute;
+  background-color: antiquewhite;
+  text-decoration: none;
+  color: black;
+}
+body header .menu .dropdown .information li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100px;
+  height: 40px;
+}
+body header .menu .dropdown .information li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+body header .menu .dropdown:hover .information {
+  display: block;
+}/*# sourceMappingURL=style.css.map */
