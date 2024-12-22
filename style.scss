@@ -9,10 +9,11 @@ body {
 
         .menu {
             display: flex;
-            justify-content: space-between;
             width: 1111px;
             height: 43px;
+            border: 1px solid pink;
             margin: auto auto;
+            justify-content: space-between;
 
             .dropdown {
                 position: relative;
