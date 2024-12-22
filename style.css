@@ -16,34 +16,43 @@ body header .menu {
   margin: auto auto;
   justify-content: space-between;
 }
-body header .menu .dropdown {
-  position: relative;
-  display: inline-block;
-}
-body header .menu .dropdown button {
+body header .menu button {
   background-color: transparent;
   border: none;
 }
-body header .menu .dropdown .information {
-  display: none;
-  position: absolute;
-  background-color: antiquewhite;
-  text-decoration: none;
-  color: black;
+body header .information {
+  display: flex;
+  width: 616px;
+  height: 412px;
+  margin-top: 121px;
+  margin-left: 116px;
+  flex-direction: column;
 }
-body header .menu .dropdown .information li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  width: 100px;
-  height: 40px;
+body header .information p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
 }
-body header .menu .dropdown .information li a {
-  display: block;
-  text-decoration: none;
-  color: black;
+body header .information h1 {
+  font-weight: 700;
+  font-size: 60px;
+  color: #FFFFFF;
+  line-height: 74px;
 }
-body header .menu .dropdown:hover .information {
-  display: block;
+body header .information h2 {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+body header .information button {
+  width: 114px;
+  height: 24px;
+  color: #FFD723;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
+  background-color: transparent;
+  border: none;
 }/*# sourceMappingURL=style.css.map */
