@@ -6,13 +6,13 @@ body header {
   /*background-image: url("/src/11.jpg");*/
   background-image: url("/assets/Slider.png");
   background-size: cover;
-  height: 100vh;
+  height: 811px;
 }
 body header .menu {
   display: flex;
   width: 1111px;
   height: 43px;
-  border: 1px solid pink;
+  margin-top: 24px;
   margin: auto auto;
   justify-content: space-between;
 }
@@ -55,4 +55,102 @@ body header .information button {
   line-height: 24px;
   background-color: transparent;
   border: none;
+  cursor: pointer;
+  text-decoration: underline;
+}
+body header .information button:hover {
+  color: #D4D6D4;
+}
+body .brend {
+  width: 1276px;
+  height: 227px;
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 707px;
+  right: 0;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.1450980392);
+  margin: auto auto;
+}
+body .review {
+  display: flex;
+  margin-top: 244px;
+  justify-content: center;
+}
+body .review .content {
+  width: 475px;
+  height: 366px;
+  margin-right: 160px;
+}
+body .review .content button {
+  background-color: transparent;
+  border: none;
+  color: #D4D6D4;
+  text-decoration: underline;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18.4px;
+}
+body .review .content button:hover {
+  color: #FFD723;
+}
+body .review .content p {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 21px;
+  color: rgba(77, 83, 60, 0.8980392157);
+}
+body .review .content h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: #4D533C;
+}
+body .review .content span {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(33, 56, 66, 0.6);
+}
+body .review .info {
+  width: 426px;
+  height: 340px;
+}
+body .review .info span {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 24px;
+  line-height: 40px;
+  color: #4D533C;
+}
+body .review .info .ava {
+  display: flex;
+  align-items: center;
+  width: 358px;
+  height: 90px;
+}
+body .review .info .ava img {
+  width: 90px;
+  height: 90px;
+  align-items: center;
+}
+body .review .info .sub {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 238px;
+  height: 62px;
+}
+body .review .info .sub h2 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  color: #4D533C;
+  margin: 0;
+}
+body .review .info .sub p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #152934;
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */

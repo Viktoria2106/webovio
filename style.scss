@@ -5,13 +5,13 @@ body {
         /*background-image: url("/src/11.jpg");*/
         background-image: url("/assets/Slider.png");
         background-size: cover;
-        height: 100vh;
+        height: 811px;
 
         .menu {
             display: flex;
             width: 1111px;
             height: 43px;
-            border: 1px solid pink;
+            margin-top: 24px;
             margin: auto auto;
             justify-content: space-between;
 
@@ -55,7 +55,110 @@ body {
                 line-height: 24px;
                 background-color: transparent;
                 border: none;
+                cursor: pointer;
+                text-decoration: underline;
+                &:hover {
+                    color: #D4D6D4;
+                }
             }
+        }
+    }
+    .brend {
+        width: 1276px;
+        height: 227px;
+        background-color: #FFFFFF;
+        position: absolute;
+        top: 707px;
+        right: 0;
+        box-shadow: 10px 5px 5px #00000025;
+        margin: auto auto;
+        
+    }
+
+    .review {
+        display: flex;
+        margin-top: 244px;
+        justify-content: center;
+        .content {
+            width: 475px;
+            height: 366px;
+            margin-right: 160px;
+            button {
+                background-color: transparent;
+                border: none;
+                color: #D4D6D4;
+                text-decoration: underline;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 18.4px;
+                &:hover {
+                    color: #FFD723;
+                }
+            }
+            p {
+                font-size: 14px;
+                font-weight:normal;
+                line-height: 21px;
+                color: #4D533CE5;
+            }
+            h1 {
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 46px;
+                color: #4D533C;
+            }
+            span {
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 26px;
+                color: #21384299;
+            }
+        }
+        .info {
+            width: 426px;
+            height: 340px;
+            
+            span {
+                font-weight: normal;
+                font-style: italic;
+                font-size: 24px;
+                line-height: 40px;
+                color: #4D533C;
+            }
+            .ava {
+                display: flex;
+                align-items: center;
+                width: 358px;
+                height: 90px;
+                img {
+                    width: 90px;
+                    height: 90px;
+                    align-items: center;
+                }
+
+            }
+            .sub {
+                display: flex;
+                flex-direction: column;
+                gap: 6px;
+                width: 238px;
+                height: 62px;
+                h2 {
+                    font-weight: 700;
+                    font-size: 22px;
+                    line-height: 33px;
+                    color: #4D533C;
+                    margin: 0;
+                }
+                p {
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #152934;
+                    margin: 0;
+                }
+            }
+
         }
     }
 }
