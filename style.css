@@ -112,6 +112,7 @@ body .review .content span {
   color: rgba(33, 56, 66, 0.6);
 }
 body .review .info {
+  box-shadow: 0 100px 100px 0 rgba(0, 0, 0, 0.1459);
   width: 426px;
   height: 340px;
 }
