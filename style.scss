@@ -79,6 +79,8 @@ body {
         display: flex;
         margin-top: 244px;
         justify-content: center;
+        width: 1109px;
+        height: 644px;
         .content {
             width: 475px;
             height: 366px;
@@ -114,10 +116,20 @@ body {
                 color: #21384299;
             }
         }
+        .container {
+            width: 474px;
+            height: 644px;
+            box-shadow: 0 100px 100px 0 rgba(0, 0, 0, 0.15);
+            position: absolute;
+            right: 166px;
+            top: 810px;
+        }
         .info {
-            box-shadow: 0 100px 100px 0 rgba(0, 0, 0, 0.1459);
             width: 426px;
             height: 340px;
+            margin-top: 244px;
+            margin-left: 40px;
+            
             
             span {
                 font-weight: normal;

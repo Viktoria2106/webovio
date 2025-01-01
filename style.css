@@ -75,6 +75,8 @@ body .review {
   display: flex;
   margin-top: 244px;
   justify-content: center;
+  width: 1109px;
+  height: 644px;
 }
 body .review .content {
   width: 475px;
@@ -111,10 +113,19 @@ body .review .content span {
   line-height: 26px;
   color: rgba(33, 56, 66, 0.6);
 }
+body .review .container {
+  width: 474px;
+  height: 644px;
+  box-shadow: 0 100px 100px 0 rgba(0, 0, 0, 0.15);
+  position: absolute;
+  right: 166px;
+  top: 810px;
+}
 body .review .info {
-  box-shadow: 0 100px 100px 0 rgba(0, 0, 0, 0.1459);
   width: 426px;
   height: 340px;
+  margin-top: 244px;
+  margin-left: 40px;
 }
 body .review .info span {
   font-weight: normal;
