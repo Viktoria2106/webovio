@@ -82,6 +82,7 @@ body .review .content {
   width: 475px;
   height: 366px;
   margin-right: 160px;
+  margin-left: 165px;
 }
 body .review .content button {
   background-color: transparent;
@@ -165,4 +166,33 @@ body .review .info .sub p {
   line-height: 24px;
   color: #152934;
   margin: 0;
+}
+body .line {
+  width: 1110px;
+  margin-left: 165px;
+}
+body .project {
+  display: flex;
+  width: 976px;
+  height: 109px;
+  justify-content: space-between;
+  margin-top: 162px;
+  margin-left: 299px;
+  margin-right: 299px;
+}
+body .project p {
+  width: 518px;
+  height: 108px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(33, 56, 66, 0.6);
+}
+body .project h1 {
+  width: 325px;
+  height: 108px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #4D533C;
 }/*# sourceMappingURL=style.css.map */
