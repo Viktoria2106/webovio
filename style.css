@@ -195,4 +195,49 @@ body .project h1 {
   font-size: 36px;
   line-height: 54px;
   color: #4D533C;
+}
+body .balenciaga {
+  width: 1306px;
+  height: 615px;
+  margin-top: 110px;
+}
+body .balenciaga .abstraction .ab {
+  width: 735px;
+  height: 550px;
+}
+body .balenciaga .abstraction .card {
+  position: absolute;
+  left: 323px;
+  top: 2500px;
+  width: 453px;
+  height: 243px;
+  background-color: white;
+  box-shadow: 50px 50px 100px 0 rgba(0, 0, 0, 0.1450980392);
+}
+body .balenciaga .abstraction .card span {
+  position: relative;
+  width: 200;
+  height: 111px;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 26px;
+  color: #4D533C;
+  text-align: center;
+}
+body .balenciaga .abstraction .card .ava2 {
+  display: flex;
+}
+body .balenciaga .abstraction .card .ava2 .oval2 {
+  width: 100px;
+  height: 100px;
+}
+body .balenciaga .abstraction .card .ava2 h2 {
+  width: 142px;
+  height: 24px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4D533C;
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */

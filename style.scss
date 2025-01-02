@@ -204,4 +204,57 @@ body {
             color: #4D533C;
         }
     }
+    .balenciaga {
+        width: 1306px;
+        height: 615px;
+        margin-top: 110px;
+        .abstraction {
+            .ab {
+                width: 735px;
+                height: 550px;
+            }
+            .card {
+                position: absolute;
+                left: 323px;
+                top: 2500px;
+                width: 453px;
+                height: 243px;
+                background-color: white;
+                box-shadow: 50px 50px 100px 0 #00000025;
+                span {
+                    position: relative;
+                    width: 200;
+                    height: 111px;
+                    font-weight: normal;
+                    font-style: italic;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #4D533C;
+                    text-align: center;
+                }
+                .ava2 {
+                    display: flex;
+                    .oval2 {
+                        width: 100px;
+                        height: 100px;
+                    }
+                    h2 {
+                        width: 142px;
+                        height: 24px;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #4D533C;
+                        margin: 0;
+                    }
+                    p {
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 21px;
+                        color: #152934;
+                    }
+                }
+            }
+        }
+    }
 }
