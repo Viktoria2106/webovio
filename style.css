@@ -200,6 +200,7 @@ body .balenciaga {
   width: 1306px;
   height: 615px;
   margin-top: 110px;
+  display: flex;
 }
 body .balenciaga .abstraction .ab {
   width: 735px;
@@ -240,4 +241,45 @@ body .balenciaga .abstraction .card .ava2 h2 {
   line-height: 24px;
   color: #4D533C;
   margin: 0;
+}
+body .balenciaga .abstraction .card .ava2 p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #152934;
+  margin: 0;
+}
+body .balenciaga .information2 {
+  align-items: center;
+  margin: 80px 0 138px 70px;
+  width: 475px;
+  height: 397px;
+}
+body .balenciaga .information2 button {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: underline;
+  color: #D4D6D4;
+  background-color: transparent;
+  border: none;
+}
+body .balenciaga .information2 button:hover {
+  color: #FFD723;
+}
+body .balenciaga .information2 h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #4D533C;
+  margin: 0;
+}
+body .balenciaga .information2 p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(33, 56, 66, 0.6);
+  margin: 0;
+  margin-top: 24px;
+  margin-bottom: 90px;
 }/*# sourceMappingURL=style.css.map */
